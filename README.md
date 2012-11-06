@@ -1,6 +1,8 @@
 To use the ros_v_protobuf package, first do:
 
-   sudo apt-get install python-protobuf
+```bash
+sudo apt-get install python-protobuf
+```
 
 Next add this serialization_testing to your ROS_PACKAGE_PATH. roscd to protobuf_v_ros, and type:
 

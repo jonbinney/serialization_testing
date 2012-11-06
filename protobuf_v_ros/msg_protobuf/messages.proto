@@ -1,0 +1,19 @@
+package protobuf_v_ros;
+
+message Point {
+  required float x = 1;
+  required float y = 2;
+  required float z = 3;
+}
+
+message Quaternion {
+  required float x = 1;
+  required float y = 2;
+  required float z = 3;
+  required float w = 4;
+}
+
+message Pose {
+  required Point position = 1;
+  required Quaternion orientation = 2;
+}

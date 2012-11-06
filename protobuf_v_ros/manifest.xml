@@ -1,0 +1,17 @@
+<package>
+  <description brief="protobuf_v_ros">
+
+     protobuf_v_ros
+
+  </description>
+  <author>Jonathan Binney</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/protobuf_v_ros</url>
+
+  <depend package="rospy"/>
+  <depend package="geometry_msgs"/>
+
+</package>
+
+
